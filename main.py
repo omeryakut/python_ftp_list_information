@@ -27,7 +27,7 @@ def get_all_folder_contents(path):
   
   
   
-  folder_path_tree=["/"]
+folder_path_tree=["/"]
 for n in get_all_folder_contents("/")[0]:
     #print(n)
     folder_path_tree.append(n)
